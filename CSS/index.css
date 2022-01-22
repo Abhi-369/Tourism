@@ -1,0 +1,272 @@
+html{
+    font-size: 10px;
+}
+nav{
+    height: 6vh;
+    font-size: 2vh;
+}
+
+.header {
+    height: 100vh;
+    animation: slideInFromRight 3s ease-in-out;
+}
+
+#background-video {
+    width: 98.75vw;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.box {
+    position: absolute;
+    top: 5.8vh;
+}
+
+.box1 {
+    border: 4px solid rgb(65, 106, 196);
+    border-radius: 0px 50px;
+    padding: 10px;
+    margin: 40vh;
+    position: absolute;
+    top: 0;
+   }      
+
+.box1>span {
+    font-size: 3rem;
+    padding: 20px;
+        color: #70869d;
+        letter-spacing: .15em;
+        text-shadow: 
+          -1px -1px 1px #efede3, 
+          0px 1px 0 #2e2e2e, 
+          0px 2px 0 #2c2c2c, 
+          0px 3px 0 #2a2a2a, 
+          0px 4px 0 #282828, 
+          0px 5px 0 #262626, 
+          0px 6px 0 #242424, 
+          0px 7px 0 #222, 
+          0px 8px 0 #202020, 
+          0px 9px 0 #1e1e1e, 
+          0px 10px 0 #1c1c1c, 
+          0px 11px 0 #1a1a1a, 
+          0px 12px 0 #181818, 
+          0px 13px 0 #161616, 
+          0px 14px 0 #141414, 
+          0px 15px 0 #121212,
+          2px 20px 5px rgba(0, 0, 0, 0.9),
+          5px 23px 5px rgba(0, 0, 0, 0.3),
+          8px 27px 8px rgba(0, 0, 0, 0.5),
+          8px 28px 35px rgba(0, 0, 0, 0.9);
+}
+
+.black-bag {
+    background-color: #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    width: 98.75vw;
+    height: 115.5vh;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 30vh;
+    margin-top: 40vh;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, #3a6186, #89253e);
+    width: 98.75vw;
+}
+
+.content img {
+    height: 70vh;
+    margin-left: 10vh;
+    display: block;
+    float: left;
+    position: absolute;
+    box-shadow: -10px 3px 3px 4px rgba(0, 0, 0, 0.7);
+    animation: slideInFromRight 5s ease-in;
+}
+
+.cont {
+    margin-left: 60vw;
+    padding: 10px;
+    width: 35vw;
+}
+.cont h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.3vh;
+}
+.cont p {
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: white;
+}
+
+.grid {
+    height: 60vh;
+    width: 60vw;
+    margin-top: 110vh;
+    display: block;
+    animation: slideInFromLeft 7s ease-in-out;
+}
+
+.desti {
+    height: 60vh;
+    width: 56vw;
+    padding: 10px;
+    position: absolute;
+    margin-left: 3vh;
+}
+
+.item {
+    position: absolute;
+    display: none;
+}
+
+.main {
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: -59vh;
+    width: 40vw;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 20vh;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.3);
+    height: 5vh;
+}
+
+
+.row .col img {
+    position: absolute;
+}
+
+.cnt{
+    position: absolute;
+    text-align: center;
+    float: bottom;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 98.75vw;
+    margin-top: 10vh;
+    background: linear-gradient(to right, #3a6186, #89253e);
+}
+
+.msg {
+    padding: 30px;
+    font-size: 2.8vh;
+    font-style: italic;
+    width: auto;
+    color: #fff;
+}
+.msg h1{
+    text-decoration: underline;
+    font-size: 4vh;
+}
+
+.msg p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.book {
+    background: linear-gradient(to right, #3a6186, #89253e);
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 330vh;
+    width: 98.75vw;
+}
+
+.info {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 2.5vh;
+    color: #fff;
+}
+.icon{
+    padding: 5vh;
+    cursor: pointer;
+}
+footer {
+    padding: 20px;
+    width: 98.75vw;
+    margin-top: 95vh;
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .header{
+        height: 10vh;
+    }
+    .box{
+        position: absolute;
+        margin-left: -20vh;
+        display: none;
+    }
+ 
+    .cont{
+        margin-left: 0;
+        width: auto;
+    }
+    .content img{
+        display: none;
+    }
+    .grid{
+        margin-top: 95vh;
+    }
+    .desti{
+        width: 100vw;
+        margin-left: -17vh;
+    }
+    .caption{
+        margin-left: 8vh;
+    }
+    .book{
+        top: 240vh;
+    }
+    .icon{
+        padding: 3vh;
+    }
+    footer{
+        margin-top: 105vh;
+    }
+}

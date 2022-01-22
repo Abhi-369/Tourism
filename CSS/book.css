@@ -1,0 +1,59 @@
+* {
+    outline: none;
+}
+
+nav{
+    height: 6vh;
+    font-size: 2vh;
+}
+
+.hr {
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(174, 190, 21);
+}
+.heading {
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  
+.heading>hr {
+    height: 5px;
+}
+
+.mid {
+    margin-left: 30vw;
+}
+
+.form-label {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.form {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    font-size: 2.5vh;
+}
+.icon{
+    padding: 5vh;
+    cursor: pointer;
+}
+footer {
+    padding: 10px;
+    width: 98.75vw;
+    margin-top: 5vh;
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2vh;
+}

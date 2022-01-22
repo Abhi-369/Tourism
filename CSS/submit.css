@@ -1,0 +1,21 @@
+img{
+    height: 85vh;
+    width: 100vw;
+}
+h1{
+    position: absolute;
+    top: 0;
+    margin: 50vh 79vh;
+}
+.foot {
+    height: 8vh;
+    margin-top: 2vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2vh;
+}

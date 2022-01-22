@@ -1,0 +1,59 @@
+* {
+    outline: none;
+}
+
+nav{
+    height: 6vh;
+    font-size: 2vh;
+}
+
+.form-label {
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+}
+.form{
+    padding: 10px;
+    border-radius: 5px;
+}
+h1{
+    color: #fff;
+}
+.btn{
+    font-size: 2.5vh;
+}
+
+.contact{
+    position: absolute;
+    height: 60vh;
+    margin: auto 70vh;
+    bottom: 10vh;
+}
+.icon{
+    padding: 5vh;
+    cursor: pointer;
+}
+footer {
+    padding: 10px;
+    width: 98.75vw;
+    margin-top: 5vh;
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 1700px) {
+    .contact{
+        margin: auto 20vh;
+        width: 100vw;
+    }    
+    .icon{
+        padding: 3vh;
+    }
+
+}
