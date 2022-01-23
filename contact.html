@@ -10,17 +10,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/2f93d0fab4.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2f93d0fab4.js" crossorigin="anonymous"></script>
 
     <title>Tourism-Website</title>
     <link rel="stylesheet" href="/css/contact.css">
 </head>
 
 <body>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="nav-link" href="/" style="color: #fff">Home</a>
+            <a class="nav-link" style="color: #fff;" href="/">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -35,17 +36,16 @@
                         <a class="nav-link active" href="/book.html">Book Now</a>
                     </li>
                 </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
-
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
         </div>
     </nav>
 
-    <div class="bg-image py-3" style="
+    <div class="bg-image py-3"
+        style="
     background-image: url('/img/aeroplan.jpg'); height: 100vh; width: 98.79vw; background-position: center; background-size: cover;">
 
         <h1 class="text-center">Get in touch</h1>
@@ -54,27 +54,28 @@
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Name <span class="form-required">*</span></label>
                     <br>
-                    <input type="Name" class="form w-25" id="exampleInputName" aria-describedby="NameHelp"
-                        placeholder="First Name" required="true">
-                    <input type="Name" class="form w-25" id="exampleInputName" aria-describedby="NameHelp"
-                        placeholder="Last Name" required="true">
+                    <input type="Name" class="form" id="exampleInputName" aria-describedby="NameHelp"
+                        placeholder="First Name" required="true" style="width: 25vw">
+                    <input type="Name" class="form" id="exampleInputName" aria-describedby="NameHelp"
+                        placeholder="Last Name" required="true" style="width: 25vw">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address <span
                             class="form-required">*</span></label>
-                    <input type="email" class="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp" required="true">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required="true" style="width: 50vw">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Phone</label>
-                    <input type="number" class="form-control w-50" id="exampleInputnumber">
+                    <input type="number" class="form-control" id="exampleInputnumber" style="width: 50vw">
                 </div>
                 <label for="exampleInputPassword1" class="form-label">Message</label>
                 <div class="form-floating">
-                    <textarea class="form-control w-50" placeholder="write a message here"
-                        id="floatingTextarea"></textarea>
+                    <textarea class="form-control" placeholder="write a message here"
+                        id="floatingTextarea" style="width: 50vw"></textarea>
                 </div>
 
-                <button type="submit" class="btn w-50 btn-success my-5">Submit</button>
+                <button type="submit" class="btn btn-success my-5" style="width: 50vw;">Submit</button>
             </form>
         </form>
     </div>
@@ -82,8 +83,8 @@
     </div>
     </nav>
 
-       <!-- Footer -->
-       <footer class="page-footer font-small cyan darken-3">
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
 
         <!-- Footer Elements -->
         <div class="container">
