@@ -12,7 +12,7 @@ nav{
 }
 
 #background-video {
-    width: 98.75vw;
+    width: 100vw;
 }
 
 @keyframes slideInFromRight {
@@ -81,8 +81,8 @@ nav{
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     opacity: 0.5;
-    width: 98.75vw;
-    height: 115.5vh;
+    width: 100vw;
+    height: 117vh;
 }
 
 .content {
@@ -151,7 +151,7 @@ nav{
 
 .caption {
     position: absolute;
-    bottom: -59vh;
+    bottom: -58vh;
     width: 40vw;
     font-size: 3rem;
     text-align: center;
@@ -234,39 +234,102 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+    nav{
+        width: 99.99vw;
+    }
     .header{
         height: 10vh;
+        width: 100vw;
+    }
+    #background-video{
+        width: 100vw;
     }
     .box{
         position: absolute;
         margin-left: -20vh;
         display: none;
     }
- 
+    .content{
+        margin-top: 30vh;
+    }
+    
+    .content img{
+        display: none;
+    }
     .cont{
         margin-left: 0;
         width: auto;
     }
-    .content img{
-        display: none;
-    }
     .grid{
-        margin-top: 95vh;
+        margin-top: 100vh;
     }
     .desti{
         width: 100vw;
-        margin-left: -17vh;
+        margin-left: -21vw;
     }
     .caption{
         margin-left: 8vh;
     }
+    .cnt{ 
+        margin-top: 5vh; 
+      }
     .book{
-        top: 240vh;
+        margin-top: -75vh;
     }
     .icon{
-        padding: 3vh;
+        padding: 2vw;
     }
     footer{
-        margin-top: 105vh;
+        margin-top: 115vh;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+    /* .box{
+        display: block;
+    } */
+    /* .black-bag{
+        height: 10vh;
+    } */
+    nav{
+        width: 99.99vw;
+    }
+    .header{
+        width: 100vw;
+    }
+    #background-video{
+        width: 100vw;
+    }
+    .content{
+        margin-top: 23vh;
+        height: 50vh;
+        overflow-y: auto;
+    }
+    .cont{
+        width: 100vw;
+        height: 50vh;
+    }
+    .grid {
+        margin-top: 78vh;
+        text-align: center;
+    }
+    .desti{
+        height: 60vh;
+        width: 100vw;
+        margin-left: -70.5vw;
+        display: inline-block;
+    }
+    .caption{
+        margin-left: 4vh;
+    }
+    .cnt{ 
+      margin-top: 5vh; 
+    }
+    .book{
+        margin-top: -88vh;
+    }
+    footer{
+        margin-top: 128vh;
     }
 }

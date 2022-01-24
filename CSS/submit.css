@@ -5,7 +5,8 @@ img{
 h1{
     position: absolute;
     top: 0;
-    margin: 50vh 79vh;
+    margin-top: 45vh;
+    margin-left: 35vw;
 }
 .foot {
     height: 8vh;
@@ -18,4 +19,13 @@ h1{
     align-items: center;
     font-weight: bold;
     font-size: 2vh;
+}
+@media only screen and (max-width: 500px){
+    h1{
+    margin-left: 10vw;
+    }
+    img{
+        background-repeat: center !important;
+        background-size: cover;
+    }
 }
