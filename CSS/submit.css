@@ -1,13 +1,21 @@
-img{
+img {
     height: 85vh;
     width: 100vw;
 }
-h1{
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
     position: absolute;
     top: 0;
     margin-top: 45vh;
     margin-left: 35vw;
 }
+
 .foot {
     height: 8vh;
     margin-top: 2vh;
@@ -20,11 +28,22 @@ h1{
     font-weight: bold;
     font-size: 2vh;
 }
-@media only screen and (max-width: 500px){
-    h1{
-    margin-left: 10vw;
+
+@media only screen and (max-width: 500px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
     }
-    img{
+
+    .me-2 {
+        display: none;
+    }
+
+    h1 {
+        margin-left: 10vw;
+    }
+
+    img {
         background-repeat: center !important;
         background-size: cover;
     }
