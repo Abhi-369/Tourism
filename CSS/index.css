@@ -90,8 +90,8 @@ nav {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     opacity: 0.5;
-    width: 98.8vw;
-    height: 115.89vh;
+    width: 100vw;
+    height: 116.89vh;
 }
 
 .content {
@@ -331,7 +331,7 @@ footer {
     }
 
     .content {
-        margin-top: 23vh;
+        margin-top: 19vh;
         height: 50vh;
         overflow-y: auto;
     }
@@ -342,7 +342,7 @@ footer {
     }
 
     .grid {
-        margin-top: 78vh;
+        margin-top: 72vh;
         text-align: center;
     }
 
@@ -362,10 +362,11 @@ footer {
     }
 
     .book {
-        margin-top: -180%;
+        margin-top: -200%;
     }
 
     footer {
         margin-top: 260%;
+        display: block;
     }
 }

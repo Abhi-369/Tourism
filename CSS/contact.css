@@ -2,10 +2,11 @@
     outline: none;
 }
 
-nav{
+nav {
     height: 6vh;
     font-size: 2vh;
 }
+
 .navbar-nav {
     display: flex;
     justify-content: space-evenly;
@@ -13,31 +14,47 @@ nav{
     width: 100%;
 }
 
+img {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
 .form-label {
     color: rgb(255, 255, 255);
     font-size: 3vh;
 }
-.form{
+
+.form {
     padding: 10px;
     border-radius: 5px;
 }
-h1{
+
+h1 {
     color: #fff;
+    position: absolute;
+    top: 0;
+    margin-left: 40%;
+    margin-top: 10vh;
 }
-.btn{
+
+.btn {
     font-size: 2.5vh;
 }
 
-.contact{
+.contact {
     position: absolute;
     height: 60vh;
-    margin: auto 60vh;
+    margin-left: 200px;
     bottom: 10vh;
 }
-.icon{
+
+.icon {
     padding: 5vh;
     cursor: pointer;
 }
+
 footer {
     padding: 10px;
     width: 98.75vw;
@@ -54,25 +71,34 @@ footer {
 }
 
 @media only screen and (max-width: 1700px) {
-    .contact{
-        margin-left: 30vw;
-        width: 100vw;
-    }    
-    .me-2{
+    body{
+        background: linear-gradient(to right, #000046, #1cb5e0); 
+    }
+    img {
         display: none;
     }
-    .icon{
+
+    .me-2 {
+        display: none;
+    }
+
+    .icon {
         padding: 2vw;
+    }
+    footer {
+        position: absolute;
+        bottom: -200px;
+        width: 100vw;
     }
 }
 
-@media only screen and (max-width: 900px) {
-    .navbar-nav{
+@media only screen and (max-width: 976px) {
+    .navbar-nav {
         display: flex;
         flex-direction: row;
     }
-  
-    .contact{
+
+    .contact {
         margin-left: 10vw;
     }
 }
